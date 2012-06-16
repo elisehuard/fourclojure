@@ -11,5 +11,3 @@
   (is (= (binary-tree? [1 [2 [3 [4 nil nil] nil] nil] nil]) true))
   (is (= (binary-tree? [1 [2 [3 [4 false nil] nil] nil] nil]) false))
   (is (= (binary-tree? '(:a nil ())) false)))
-
-(run-tests 'fourclojure.test.problem95)
